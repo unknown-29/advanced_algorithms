@@ -1,8 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 # define NO_OF_CHARS 256 
-void badCharHeuristic( string str, int size, 
-						int badchar[NO_OF_CHARS]) 
+void badCharHeuristic( string str, int size, int badchar[NO_OF_CHARS]) 
 { 
 	int i; 
 
@@ -47,5 +46,3 @@ int main()
 	search(txt, pat); 
 	return 0; 
 } 
-
-// This code is contributed by rathbhupendra
